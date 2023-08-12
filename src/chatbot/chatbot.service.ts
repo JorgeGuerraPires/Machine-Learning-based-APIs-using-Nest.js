@@ -14,7 +14,7 @@ export class ChatbotService {
 
     async chatbot(mensage: string): Promise<string> {
 
-        const apikey = "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";
+        const apikey = "your_key_here";
 
         //Setting up for our HTTP call
         const config = {
