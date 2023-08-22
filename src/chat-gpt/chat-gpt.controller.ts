@@ -3,7 +3,6 @@ import { ChatGptService } from './chat-gpt.service';
 
 import { Response } from 'express';
 import { ApiKey } from '../custom-decorators/api-key.decorator';
-import { UsersService } from '../users/users.service';
 
 
 @Controller('chat-gpt')
